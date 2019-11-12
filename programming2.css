@@ -1,0 +1,115 @@
+li {
+  list-style: none;
+  cursor: pointer; }
+
+.return {
+  cursor: pointer; }
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto; }
+
+header {
+  background-image: url("header-green.gif");
+  height: auto;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.header-left h1 {
+  font-size: 40px;
+  color: black;
+  float: left;
+  cursor: pointer; }
+
+.header-right {
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px; }
+  .header-right li {
+    border-bottom: groove thin black;
+    text-align: center;
+    padding: 10px 15px;
+    display: inline;
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0 5px; }
+
+.main {
+  height: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  height: 300px; }
+
+.date-area {
+  border-right: solid 2px black;
+  width: 15%;
+  height: 300px;
+  float: left; }
+  .date-area h3 {
+    font-size: 20px;
+    font-size: bold;
+    text-align: center; }
+
+.main-area {
+  width: 84%;
+  float: left; }
+  .main-area h1 {
+    font-size: 35px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid 2px black; }
+
+.messsage {
+  height: auto;
+  margin: 20px;
+  width: 99%; }
+
+.send-title {
+  font-size: 20px;
+  font-weight: bold;
+  width: 30%;
+  float: left; }
+
+.send-date {
+  font-size: 15px;
+  color: blue;
+  width: 69%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px; }
+
+.send-messsage {
+  font-size: 15px;
+  width: 99%;
+  float: left;
+  border-bottom: double 1px black; }
+
+footer {
+  margin-top: 30px;
+  background-image: url("footer-black.jpg");
+  background-size: cover;
+  height: 100px;
+  color: white; }
+
+.footer-left {
+  float: left;
+  margin: 10px 0 0 10px; }
+  .footer-left p {
+    font-size: 23px; }
+
+.footer-right {
+  float: right;
+  margin: 20px 0 0 10px; }
+  .footer-right li {
+    display: inline;
+    font-size: 16px;
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 8px;
+    margin: 0 5px 5px 0; }
+
+/*# sourceMappingURL=programming2.css.map */
